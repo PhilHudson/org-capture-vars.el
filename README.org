@@ -11,7 +11,7 @@ JIRA tickets like this:
    #+END_SRC
    
 to be prompted for the JIRA ticket number to enter. Your entered text
-will be stored in buffer-local variable 'jr-no'. If you enter, say,
+will be stored in buffer-local variable ~jr-no~. If you enter, say,
 "4321" at the prompt, your capture output will look like:
 
    #+BEGIN_SRC org-mode

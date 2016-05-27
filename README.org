@@ -27,7 +27,7 @@ will be stored in buffer-local variable ~jr-no~. If you enter, say,
 The optional third argument lets you specify an initial default input
 value.
 
-If you have a list of completions you want to use, you can pass that
+If you have a list of completions you want to offer, you can pass that
 as the optional fourth argument:
 
    #+BEGIN_SRC org-mode

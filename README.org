@@ -34,3 +34,6 @@ as the optional fourth argument:
    * Next meeting at %(ocv/prmt "Location" 'mtg-loc "the usual place" 'mtg-locs)
    #+END_SRC
    
+Very slightly modified from 
+[[http://storax.github.io/blog/2016/05/02/org-capture-tricks/][an original idea and implementation code]]
+by [[http://storax.github.io][David Zuber]].

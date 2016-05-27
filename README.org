@@ -1,5 +1,5 @@
 * org-capture-vars.el
-User-defined capture variables and prompts for Org-mode
+** User-defined capture variables and prompts for Org-mode
 
 For example, you might define an Org capture template for capturing
 JIRA tickets like this:
@@ -26,4 +26,7 @@ value.
 If you have a list of completions you want to use, you can pass that
 as the optional fourth argument:
 
+   #+BEGIN_SRC org-mode
    * Next meeting at %(ocv/prmt "Location" 'mtg-loc 'mtg-locs)
+   #+END_SRC
+   

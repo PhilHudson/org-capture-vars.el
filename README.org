@@ -30,7 +30,7 @@ value.
 If you have a list of completions you want to offer, you can pass that
 as the optional fourth argument:
 
-   #+BEGIN_SRC org-mode
+   #+BEGIN_SRC org
    * Next meeting at %(ocv/prmt "Location" 'mtg-loc "the usual place" 'mtg-locs)
    #+END_SRC
 

@@ -1,7 +1,9 @@
 * org-capture-vars.el
 ** User-defined capture variables and prompts for Org-mode
 
-~(ocv/prmt PROMPT VARIABLE &optional DEFAULT COMPLETIONS)~
+For use with Org capture mode's ~%(...)~ Lisp escape syntax.
+
+~%(ocv/prmt PROMPT VARIABLE &optional DEFAULT COMPLETIONS)~
 
 For example, you might define an Org capture template for capturing
 JIRA tickets like this:

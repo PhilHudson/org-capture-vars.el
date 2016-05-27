@@ -1,0 +1,25 @@
+# org-capture-vars.el
+* User-defined capture variables and prompts for Org-mode
+
+For example, you might define an Org capture template for capturing
+JIRA tickets like this:
+
+   * JIRA Ticket %(ocv/prmt "JIRA Ticket No." 'jr-no)
+     I have to do the following stuff:
+   ** Triage %(progn jr-no)
+
+to be prompted for the JIRA ticket number to enter. Your entered text
+will be stored in buffer-local variable 'jr-no'. If you enter, say,
+"4321" at the prompt, your capture output will look like:
+
+   * JIRA Ticket 4321
+     I have to do the following stuff:
+   ** Triage 4321
+
+The optional third argument lets you specify an initial default input
+value.
+
+If you have a list of completions you want to use, you can pass that
+as the optional fourth argument:
+
+   * Next meeting at %(ocv/prmt "Location" 'mtg-loc 'mtg-locs)

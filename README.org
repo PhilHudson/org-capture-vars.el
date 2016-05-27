@@ -5,8 +5,8 @@ For use with Org capture mode's ~%(...)~ Lisp escape syntax.
 
 ~%(ocv/prmt PROMPT VARIABLE &optional DEFAULT COMPLETIONS)~
 
-For example, you might define an Org capture template for capturing
-JIRA tickets like this:
+*** Example
+You might define an Org capture template for capturing JIRA tickets like this:
 
    #+BEGIN_SRC org-mode
    * JIRA Ticket %(ocv/prmt "JIRA Ticket No." 'jr-no)
@@ -33,7 +33,9 @@ as the optional fourth argument:
    #+BEGIN_SRC org-mode
    * Next meeting at %(ocv/prmt "Location" 'mtg-loc "the usual place" 'mtg-locs)
    #+END_SRC
-   
+
+* Acknowledgements
+
 Very slightly modified from 
 [[http://storax.github.io/blog/2016/05/02/org-capture-tricks/][an original idea and implementation code]]
 by [[http://storax.github.io][David Zuber]].
